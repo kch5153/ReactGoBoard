@@ -1,0 +1,43 @@
+.clickedBlack {
+  background-image: url("https://cdn.glitch.com/4bfca7e5-95f2-4b2d-b00f-45536ddc8780%2FRealistic_Go_Stone.svg.png?v=1583447748422");
+  background-size: contain;
+}
+
+.clickedWhite {
+  
+}
+
+.unclicked {
+  
+}
+
+.stone {
+  height: 70%;
+  width:70%;
+}
+
+.square {
+  
+  overflow:auto;
+  display:inline-block;
+  background-image: url("https://cdn.glitch.com/4bfca7e5-95f2-4b2d-b00f-45536ddc8780%2Fgogrid.JPG?v=1583447500607");
+  background-size: contain;
+  border: none;
+  outline: none;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 4vw;
+  overflow:visible;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 4vw;
+  
+}
+
+.square:focus {
+  outline: none;
+}
